@@ -52,8 +52,8 @@ If you’re learning too — feel free to check out the projects, give feedback,
 
 I'm an IT student with a growing interest in web development, building small apps, and contributing to open source soon.  
 Connect with me:
-- GitHub: [@yourusername](https://github.com/shariyaansari)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/shariya-ansari-a4671b222/)
+- GitHub: [@shariyaansari](https://github.com/shariyaansari)
+- LinkedIn: [Shariya Ansari](https://www.linkedin.com/in/shariya-ansari-a4671b222/)
 
 ---
 
