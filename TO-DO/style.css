@@ -1,0 +1,65 @@
+body{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            color: burlywood;
+            background-color: rgb(43, 41, 39);
+            margin-top: 0;
+            padding: 10px;
+            height: 50px;
+        }
+        #task-input{
+            width: 80%;
+            text-align: center;
+            padding: 10px 5px;
+            margin: 10px 13px;
+            border-radius: 10px;
+            border-color: bisque;
+        }
+        #btn-add{
+            padding: 10px 5px;
+            margin: 10px 13px;
+            width: 10%;
+            color: burlywood;
+            background-color: rgb(156, 78, 0);
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        li{
+            /* text-align: center; */
+            height: 30px;
+            width: 80%;
+            border: 2px solid rgb(43, 41, 39);
+            padding-top: 10px;
+            padding-left: 15px;
+            border-radius: 20px;
+            list-style:decimal;
+            list-style-position:inside;
+            margin: 10px 0px;
+            color: burlywood;
+            background-color: rgb(43, 41, 39);
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            animation: fadeIn 0.3s ease forwards;
+        }
+        li:hover{
+            background-color: rgb(95, 87, 79);
+        }
+
+        /* Making a fade in Animation when the task is added */
+        @keyframes fadeIn {
+            from{
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to{
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Adding strike through animation when the task is completed */
