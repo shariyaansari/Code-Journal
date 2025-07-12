@@ -9,15 +9,20 @@ I’m still learning, and this is my way of tracking progress and sharing my gro
 
 ## 📂 Projects So Far
 
+### 1. 🌤️ People Counter(API Practice)
+- Tech used: HTML, CSS, JS
+- What I learned: Increment and Decrement using button
+- Code: [`/People-Counter-app](./People-Counter-app)
 
-### 1. 🌤️ Weather App (API Practice)
+### 2. 🌤️ Weather App (API Practice)
 - Tech used: HTML, CSS, JS, OpenWeatherMap API
 - What I learned: Fetching data from APIs, working with JSON, input validation
 - Code: [`/weather-app`](./weather-app)
 
+
 ---
 
-### 2. ✅ To-Do List
+### 3. ✅ To-Do List
 - Tech used: HTML, CSS, JavaScript
 - What I learned: Array handling, localStorage (if added), conditionals
 - Code: [`/todo-list`](./todo-list)
