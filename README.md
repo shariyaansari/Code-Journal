@@ -13,7 +13,6 @@ I’m still learning, and this is my way of tracking progress and sharing my gro
 ### 1. 🌤️ Weather App (API Practice)
 - Tech used: HTML, CSS, JS, OpenWeatherMap API
 - What I learned: Fetching data from APIs, working with JSON, input validation
-- Live Demo: [Link here](#)
 - Code: [`/weather-app`](./weather-app)
 
 ---
@@ -21,7 +20,6 @@ I’m still learning, and this is my way of tracking progress and sharing my gro
 ### 2. ✅ To-Do List
 - Tech used: HTML, CSS, JavaScript
 - What I learned: Array handling, localStorage (if added), conditionals
-- Live Demo: [Link here](#)
 - Code: [`/todo-list`](./todo-list)
 
 ---
