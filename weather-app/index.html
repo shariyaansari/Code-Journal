@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,32 @@
 
     </style>
 </head>
+
 <body>
-    <h1>Weather App</h1>
-    <input type="text" id="cityInput" placeholder="Enter City Name">
-    <button onclick="getWeather()">Get Weather</button>
-    <div id="weatherResult"></div>
+    <div class="main">
+        <div class="left">
+            <h1>Weather App</h1>
+            <input type="text" id="cityInput" placeholder="Enter City Name">
+            <button onclick="getWeather()">Get Weather</button>
+            <!-- <div id="weatherResult"></div> -->
+        </div>
+        <div class="right">
+            <div class="weather-gen">
+                <h2 id="day">--</h2>
+                <p id="date">--</p>
+                <p id="location">--</p>
+                <img src="" alt="icon" id="icon">
+                <h3 id="temp">--</h3>
+                <p id="condition">--</p>
+            </div>
+                <div class="weather-stats">
+                <p class="humidity"><strong>Humidity:</strong> <span id="humidity">--</span></p>
+                <p class="wind"><strong>Wind:</strong> <span id="wind">--</span></p>
+                <p class="precip"><strong>Precipitation:</strong> <span id="precip">--</span></p>
+            </div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
+
 </html>
