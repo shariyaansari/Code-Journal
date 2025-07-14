@@ -1,6 +1,5 @@
 // Api key from the OpenWeather
-
-const apiKey = "";
+const apiKey = "Your_Api_key";
 
 function getWeather() {
 	// Storing placeholder value in city and removing whitespaces
