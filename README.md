@@ -19,13 +19,29 @@ I’m still learning, and this is my way of tracking progress and sharing my gro
 - What I learned: Fetching data from APIs, working with JSON, input validation
 - Code: [`/weather-app`](./weather-app)
 
-
----
-
 ### 3. ✅ To-Do List
 - Tech used: HTML, CSS, JavaScript
-- What I learned: Array handling, localStorage (if added), conditionals
+- What I learned: Array handling, localStorage, conditionals
 - Code: [`/todo-list`](./todo-list)
+
+
+### 4. ✅ Movie-SearchApp
+- Tech used: HTML, CSS, JavaScript
+- What I learned: Array handling, APIs, conditionals
+- Code: [`/Movie-Search-App`](./Movie-Search-App)
+
+
+### 5. ✅ Random-Password-Generator
+- Tech used: HTML, CSS, JavaScript
+- What I learned: generating random words, conditionals
+- Code: [`/Random-Password-Generator`](./Random-Password-Generator)
+
+
+### 6. ✅ Age-Calculator
+- Tech used: HTML, CSS, JavaScript
+- What I learned: Logic,Conditional, Dealing with dates
+- Code: [`/Age-Calculator`](./Age-Calculator)
+
 
 ---
 
@@ -59,9 +75,3 @@ I'm an IT student with a growing interest in web development, building small app
 Connect with me:
 - GitHub: [@shariyaansari](https://github.com/shariyaansari)
 - LinkedIn: [Shariya Ansari](https://www.linkedin.com/in/shariya-ansari-a4671b222/)
-
----
-
-## 📝 License
-
-This repo is under the MIT License — but feel free to fork and learn from it as much as you want!
