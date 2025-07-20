@@ -1,0 +1,78 @@
+/* #FE7743 - orange
+#273F4F - Navy blue
+#447D9B - light blue 
+#D7D7D7 - grey
+*/ 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #273F4F;
+    color: #D7D7D7;
+}
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #D7D7D7;
+    color: #447D9B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    font-weight: 500px;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #FE7743;
+    /* Border at the bottom */
+    border-bottom: 4px solid #FE7743;
+}
+
+.display img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.display input {
+    border: none;
+    outline: none;
+    background: #D7D7D7;
+}
+
+.container button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FE7743;
+    color: #D7D7D7;
+    font-size: 22px;
+    font-weight: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 16px 16px;
+    /* border: none; */
+    /* outline: 0; */
+}
