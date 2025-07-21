@@ -1,0 +1,89 @@
+        /* 
+#555879 - Navy
+#98A1BC - Beigr
+#DED3C4 - Sea
+#F4EBD3 - Pastel */
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #555879, #98A1BC);
+            color: #F4EBD3;
+            padding: 10px;
+        }
+
+        .calculator {
+            width: 100%;
+            max-width: 600px;
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+
+        .calculator h1 {
+            font-size: 60px;
+        }
+
+        .calculator h1 span {
+            font-size: 60px;
+            color: #30334a;
+        }
+
+        .input-box {
+            margin: 40px 0px;
+            padding: 35px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.3);
+            align-items: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-box input {
+            /* display: flex; */
+            flex: 1;
+            margin-right: 20px;
+            padding: 14px 20px;
+            border: 0;
+            outline: 0;
+            font-size: 18px;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .input-box button {
+            background: #30334a;
+            border: 0;
+            outline: 0;
+            padding: 15px 30px;
+            border-radius: 10px;
+            color: #F4EBD3;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .input-box ::-webkit-calendar-picker-indicator {
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: auto;
+            height: auto;
+            position: absolute;
+            background-position: calc(100% - 10px);
+            background-size: 30px;
+            cursor: pointer !important;
+        }
+        #result{
+            color: #F4EBD3;
+            font-size: larger
+        }
+        #result span{
+            color: #30334a;
+            font-weight: bolder;
+        }
