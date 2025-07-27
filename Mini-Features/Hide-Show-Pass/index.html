@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Toggle</title>
+    <style>
+        /* 
+        #000000 - black
+        #CFFFE2 - mint
+        #A2D5C6 - green - bg
+        #F6F6F6 - grey
+        */
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background: #A2D5C6;
+        }
+        .input-box{
+            background: #fff;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin: 300px auto;
+            display: flex;
+            align-items: center;
+        }
+        .input-box input{
+            width: 100%;
+            outline: none;
+            border: none;
+            font-size: 30px;
+            padding: 10px 20px;
+            color: #9f9f9f;
+        }
+        .input-box img{
+            width: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="input-box">
+        <input type="password" placeholder="password" id="password">
+        <img src="eye-close.png" alt="" id="eyeicon">
+
+    </div>
+    <script>
+        let eyeicon = document.getElementById("eyeicon")
+        let password = document.getElementById("password")
+
+        eyeicon.onclick = function(){
+            if(password.type == "password"){
+                password.type = "text"
+                eyeicon.src = "eye-open.png"
+            }else{
+                password.type = "password"
+                eyeicon.src = "eye-close.png"
+            }
+        }
+    </script>    
+</body>
+</html>
