@@ -1,5 +1,5 @@
-
-const apiKey = "Your_Api_Key";
+// API key = 329bdf4d
+const apiKey = "329bdf4d";
 
 function searchMovie(){
     const query = document.getElementById("searchInput").value.trim().toLowerCase();
