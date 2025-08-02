@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .hero{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(#f44336, #730228);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .selector{
+            width: 350px;
+        }
+        #selectorField{
+            width: 100%;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255,255,0.7);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+        #selectorField img{
+            width: 20px;
+            cursor: pointer;
+            transition: transform 0.5s;
+        }
+        #list{
+            width: 100%;
+            background: rgba(255, 255,255,0.7);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        .options{
+            width: 100%;
+            padding: 15px;
+            list-style: none;
+            cursor: pointer;
+            box-sizing: border-box;
+            /* position: relative; */
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+        .options img{
+            width: 20px;
+            /* position: absolute;
+            top: 12px;
+            left: 305px; */
+        }
+        .options:hover{
+            background: rgba(255, 255,255,0.4);
+        }
+        .hide{
+            visibility: hidden;
+        }
+        .rotate{
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="selector">
+            <div id="selectorField">
+                <p id="selectText">Select Social Media</p>
+                <img src="images/arrow.png" alt="" id="arrowIcon">
+            </div>
+            <ul id="list" class="hide">
+                <li class="options">
+                    <p>Facebook</p>
+                    <img src="images/facebook.png" alt="">
+                </li>
+                <li class="options">
+                    <p>Instagram</p>
+                    <img src="images/instagram.png" alt="">
+                </li>
+                <li class="options">
+                    <p>Pinterest</p>
+                    <img src="images/pinterest.png" alt="">
+                </li>
+                <li class="options">
+                    <p>Twitter</p>
+                    <img src="images/twitter.png" alt="">
+                </li>
+                <li class="options">
+                    <p>Youtube</p>
+                    <img src="images/youtube.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        var selectField = document.getElementById("selectorField")
+        var selectText = document.getElementById("selectText")
+        var options = document.getElementsByClassName("options")
+        var list = document.getElementById("list")
+        var arrowIcon = document.getElementById("arrowIcon")
+        // Putting onclick on each options
+        for(option of options){
+            option.onclick = function(){
+                // get the content of the option and store in innerhtml of the selectField
+                selectText.innerHTML = this.textContent;
+                // After choosing options - options should vanish
+                list.classList.toggle("hide");
+                arrowIcon.classList.toggle("rotate")
+            }
+        }
+        selectField.onclick = function() {
+            list.classList.toggle("hide");
+            arrowIcon.classList.toggle("rotate")
+        }
+
+    </script>
+</body>
+</html>
