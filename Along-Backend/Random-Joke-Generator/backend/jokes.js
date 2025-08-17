@@ -1,0 +1,22 @@
+module.exports = [
+  "Why don’t skeletons fight each other? They don’t have the guts.",
+  "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+  "Why can’t your nose be 12 inches long? Because then it’d be a foot.",
+  "Why did the scarecrow win an award? Because he was outstanding in his field!",
+  "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+  "What do you call a factory that makes good products? A satisfactory.",
+  "I'm reading a book on anti-gravity. It's impossible to put down!",
+  "What do you get when you cross a snowman and a vampire? Frostbite.",
+  "Why don't scientists trust atoms? Because they make up everything!",
+  "What’s the best thing about Switzerland? I don’t know, but the flag is a big plus.",
+  "I have a fear of speed bumps, but I’m slowly getting over it.",
+  "Why don't eggs tell jokes? They'd crack each other up.",
+  "What do you call a fake noodle? An impasta.",
+  "I used to be a baker, but I couldn't make enough dough.",
+  "What did one wall say to the other wall? I'll meet you at the corner.",
+  "What do you call a lazy kangaroo? Pouch potato.",
+  "Did you hear about the restaurant on the moon? Great food, no atmosphere.",
+  "Why did the bicycle fall over? Because it was two-tired.",
+  "What do you call a sleeping bull? A bulldozer.",
+  "I'm on a seafood diet. I see food and I eat it."
+];

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            display: flex;
+            border: 2px solid black;
+            width: 900px;
+            align-items: self-end;
+            margin: 10px 10px;
+        }
+
+        img {
+            width: 170px;
+            border-radius: 6px;
+        }
+        .img{
+            position: relative;
+        }
+
+        .content h1 {
+            padding: 5px 0px;
+            font-size: x-large;
+        }
+
+        .content p {
+            font-size: small;
+            color: grey;
+            padding: 5px 0px;
+        }
+
+        .capsule {
+            position: absolute;
+            bottom: 4px;
+            z-index: 10;
+            right: 0;
+            background-color: rgb(20, 19, 19);
+            opacity: 0.9;
+            padding: 3px;
+            border-radius: 2px;
+            font-size: 10px;
+            color: white;
+        }
+        button{
+            padding: 20px;
+            color: white;
+            font-size: larger;
+            background-color: rgb(52, 123, 255);
+            border: none;
+            border-radius: 20px;
+            text-align: center;
+            position: absolute;
+            right: 649px;
+        }
+        .but{
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Question:-  -->
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="https://i.ytimg.com/vi/kJEsTjH5mVg/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBYghRBiZcZs-xVJKq92lAM8h3BOg"
+                    alt="">
+                <div class="capsule">31:06</div>
+            </div>
+            <div class="content">
+                <h1>Introduction to backend | Sigma Web Dev video #2</h1>
+                <p>CodeWithHarry . 727k views . 2 months ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="but">
+    <button id = "btn">Click me to generate new card</button></div>
+    <script src="DynamicWebsiteBulder.js"></script>
+</body>
+
+</html>
