@@ -1,77 +1,101 @@
 # 🚀 My Web Dev Learning Journey
 
 Hey there! 👋  
-This repo contains a collection of basic projects I've built while learning web development. Each one helped me understand a different concept — from HTML structure to JavaScript interactivity.
 
-I’m still learning, and this is my way of tracking progress and sharing my growth publicly 💻✨
+This repo contains a collection of projects I’ve been building while learning **web development**.  
+Each project focuses on different concepts — from **HTML & CSS basics** to **JavaScript interactivity**,  
+and even **full-stack applications** with backend integration.  
 
----
-
-## 📂 Projects So Far
-
-### 1. 🌤️ People Counter(API Practice)
-- Tech used: HTML, CSS, JS
-- What I learned: Increment and Decrement using button
-- Code: [`/People-Counter-app](./People-Counter-app)
-
-### 2. 🌤️ Weather App (API Practice)
-- Tech used: HTML, CSS, JS, OpenWeatherMap API
-- What I learned: Fetching data from APIs, working with JSON, input validation
-- Code: [`/weather-app`](./weather-app)
-
-### 3. ✅ To-Do List
-- Tech used: HTML, CSS, JavaScript
-- What I learned: Array handling, localStorage, conditionals
-- Code: [`/todo-list`](./todo-list)
-
-
-### 4. ✅ Movie-SearchApp
-- Tech used: HTML, CSS, JavaScript
-- What I learned: Array handling, APIs, conditionals
-- Code: [`/Movie-Search-App`](./Movie-Search-App)
-
-
-### 5. ✅ Random-Password-Generator
-- Tech used: HTML, CSS, JavaScript
-- What I learned: generating random words, conditionals
-- Code: [`/Random-Password-Generator`](./Random-Password-Generator)
-
-
-### 6. ✅ Age-Calculator
-- Tech used: HTML, CSS, JavaScript
-- What I learned: Logic,Conditional, Dealing with dates
-- Code: [`/Age-Calculator`](./Age-Calculator)
-
+I’m still learning, and this repo is my way of tracking progress and sharing my growth publicly 💻✨  
 
 ---
 
-## 🛠️ Technologies I’m Learning
+## 📂 Project Categories
 
-- ✅ HTML & CSS basics
-- ✅ JavaScript fundamentals
-- ⏳ APIs and async code
-- ⏳ React (soon!)
-- 🧠 Git/GitHub for version control
+### 🔹 Only Frontend
+Small projects built with just **HTML, CSS, and JavaScript**.
+
+1. 👤 **Age Calculator**  
+   *Tech:* HTML, CSS, JS  
+   *Learned:* Date manipulation, logic, conditionals  
+   *Code:* `/Only-Frontend/Age-Calculator`
+
+2. ➗ **Faulty Calculator**  
+   *Tech:* HTML, CSS, JS  
+   *Learned:* Handling user input, conditional logic, math operations  
+   *Code:* `/Only-Frontend/FaultyCalc`
+
+3. ⚡ **Mini Features**  
+   *Tech:* HTML, CSS, JS  
+   *Learned:* Practiced small independent features (buttons, events, DOM manipulation)  
+   *Code:* `/Only-Frontend/Mini-Features`
+
+4. 🎬 **Movie Search App (API Practice)**  
+   *Tech:* HTML, CSS, JS, Movie API  
+   *Learned:* Fetching API data, JSON handling, DOM updates  
+   *Code:* `/Only-Frontend/Movie-Search-App`
+
+5. 👥 **People Counter App**  
+   *Tech:* HTML, CSS, JS  
+   *Learned:* Event handling, increment/decrement logic  
+   *Code:* `/Only-Frontend/People-Counter-app`
+
+6. 🔑 **Random Password Generator**  
+   *Tech:* HTML, CSS, JS  
+   *Learned:* Random string generation, string manipulation  
+   *Code:* `/Only-Frontend/Random-Password-Generator`
+
+7. 🎵 **Spotify Clone (UI Practice)**  
+   *Tech:* HTML, CSS  
+   *Learned:* CSS layouts, styling, responsive design  
+   *Code:* `/Only-Frontend/Spotify-Clone`
+
+8. 📝 **To-Do List**  
+   *Tech:* HTML, CSS, JS  
+   *Learned:* Array handling, localStorage, conditionals  
+   *Code:* `/Only-Frontend/todo-list`
+
+9. 🌤️ **Weather App (API Practice)**  
+   *Tech:* HTML, CSS, JS, OpenWeatherMap API  
+   *Learned:* Fetching APIs, JSON parsing, input validation  
+   *Code:* `/Only-Frontend/weather-app`
 
 ---
 
-## 📚 Why This Repo Exists
+### 🔹 Along Backend
+Projects experimenting with **backend functionality**.
 
-> "Don't wait to be perfect to start. Just start."  
+1. 🎭 **Random Joke Generator**  
+   *Tech:* Node.js / Express, API  
+   *Learned:* Backend API calls, serving JSON data  
+   *Code:* `/Along-Backend/Random-Joke-Generator`
 
-I'm using this space to:
-- Practice what I learn
-- Make mistakes publicly and learn from them
-- Build a habit of pushing code
-- Reflect on my progress over time
-
-If you’re learning too — feel free to check out the projects, give feedback, or just say hi! 👇
+2. ✉️ **Simple Contact Form**  
+   *Tech:* Node.js / Express  
+   *Learned:* Form handling, POST requests, backend basics  
+   *Code:* `/Along-Backend/Simple-Contact-Form`
 
 ---
 
-## 🙋‍♀️ About Me
+### 🔹 Full Stack
+Projects that connect **frontend + backend**.
 
-I'm an IT student with a growing interest in web development, building small apps, and contributing to open source soon.  
-Connect with me:
-- GitHub: [@shariyaansari](https://github.com/shariyaansari)
-- LinkedIn: [Shariya Ansari](https://www.linkedin.com/in/shariya-ansari-a4671b222/)
+1. 💰 **Money Tracker App**  
+   *Tech:* Full Stack (likely Node.js, Express, Database, Frontend)  
+   *Learned:* CRUD operations, authentication (if included), frontend-backend integration  
+   *Code:* `/Full-Stack/money-tracker`
+
+
+
+## 🌱 What’s Next?
+- More **API-based apps** 🌐  
+- Exploring **databases** 📊  
+- Diving into **React & modern frameworks** ⚛️  
+
+---
+
+## 🙌 Final Thoughts
+This repo is my **learning archive**.  
+It’s not about perfection, but about **progress** 🚀  
+
+If you stumble upon this and have suggestions, feel free to share! 😊
